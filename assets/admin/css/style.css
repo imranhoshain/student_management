@@ -1,0 +1,206 @@
+/*-------------------------------------------*/
+
+header {
+    background: #000 none repeat scroll 0 0;
+}
+
+.header-top {
+    min-height: 60px;
+}
+
+.header-top-left {
+    float: left;
+}
+
+.header-top-right {
+    float: right;
+}
+
+.header-top p {
+    color: #ddd;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 5px 0;
+}
+
+.header-bottom {
+    background: #3b5998 none repeat scroll 0 0;
+    min-height: 60px;
+}
+
+.mainmenu {
+    float: right;
+}
+
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 15px 0;
+    padding: 0;
+}
+
+.mainmenu li {
+    display: inline-block;
+    position: relative;
+}
+
+.mainmenu ul li a {
+    padding: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mainmenu ul li ul {
+    background: #148fd0 none repeat scroll 0 0;
+    position: absolute;
+    right: 0;
+    top: 138%;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 200px;
+    opacity: 0;
+}
+
+.mainmenu ul li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    top: 100%;
+    z-index: 999;
+}
+
+.mainmenu ul li ul li {
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.mainmenu ul li ul li a {
+    padding: 10px;
+}
+
+.mainmenu ul li ul li a:last-child {
+    border-bottom: none;
+}
+
+
+/**************Register*******************/
+
+.form-group.mr10 {
+    margin-top: 10px;
+}
+
+.dob {
+    background: #adfd none repeat scroll 0 0;
+    border-left: 1px solid;
+    border-top: 1px solid;
+    padding: 7px 6px;
+}
+
+.radio-inline {
+    padding: 8px 0;
+}
+
+.custom-control.custom-radio {
+    margin-right: 10px;
+    display: inline;
+}
+
+.form-title {
+    background: #35af92 none repeat scroll 0 0;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    padding: 15px 10px;
+}
+
+.gender,
+.skill,
+.birth,
+.image-up {
+    border: 1px solid #d9d9d9;
+    margin-top: 15px;
+    padding: 0 56px;
+}
+
+.birth {
+    border: 1px solid #d9d9d9;
+    margin-top: 15px;
+    padding: 15px 56px 0;
+}
+
+
+/* Form area Start */
+
+.form-area.sub-select {
+    margin: 20px 0 50px;
+    text-align: center;
+}
+
+
+/* Contact area Start */
+
+.social-icon h2 {
+    color: #109e59;
+    text-align: center;
+}
+
+.social-icon i {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    color: #000;
+    font-size: 16px;
+    margin: 3px;
+    padding: 12px;
+}
+
+.social-icon i:hover {
+    background: #00AAE8;
+    color: #fff;
+    -webkit-transition: background 0.5s;
+    transition: background 0.5s;
+}
+
+
+/* Contact area End */
+
+
+/* Footer area Start */
+
+.footer-area {
+    background: #ffbf89 none repeat scroll 0 0;
+}
+
+.footer-right {
+    float: right;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100px;
+}
+
+.footer-left {
+    float: left;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100px;
+}
+
+
+/* Footer area End */
